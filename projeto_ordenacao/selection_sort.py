@@ -1,5 +1,5 @@
 #por que apenas um dos dois algoritmos apresenta melhora de desempenho quando a lista de entrada já está ordenada, mesmo os dois sendo O(n2) no pior caso?
-
+#Resposta: Apenas um dos dois algoritmos quadráticos, o Bubble Sort otimizado, apresenta melhora de desempenho quando a lista já está ordenada, enquanto o Selection Sort não se beneficia dessa situação.
 
 def selection_sort(lista):
     n = len(lista)

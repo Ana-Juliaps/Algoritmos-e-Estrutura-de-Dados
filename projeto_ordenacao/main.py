@@ -1,5 +1,5 @@
 #em qual tipo de lista o corte antecipado da versão otimizada do Bubble Sort economiza mais passagens, e por que isso acontece.
-
+# Resposta: O corte antecipado da versão otimizada do Bubble Sort economiza mais passagens quando a lista já está ordenada ou quase ordenada.
 from bubble_sort import bubble_sort, bubble_sort_otimizado
 from utilitarios import ler_lista_do_usuario, exibir_resultados
 from selection_sort import selection_sort
@@ -83,7 +83,7 @@ def main():
         elif opcao == 4:
             lista = ler_lista_do_usuario()
             resultado = insertion_sort(list(lista))
-            exibir_resultado("Insertion Sort", resultado)
+            exibir_resultados("Insertion Sort", resultado)
 
         elif opcao == 5:
             executar_comparacao_rapida()

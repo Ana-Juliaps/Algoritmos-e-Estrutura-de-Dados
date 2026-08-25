@@ -1,4 +1,5 @@
 # por que o Insertion Sort costuma ser o mais indicado entre os três algoritmos quadráticos quando a lista de entrada já está quase ordenada, e o que isso tem a ver com o número de deslocamentos realizados?
+# Resposta: O Insertion Sort só desloca elementos quando encontra uma inversão. Se a lista está quase ordenada, há poucas inversões, logo poucos deslocamentos. Isso torna o algoritmo muito eficiente nesse cenário, ao contrário dos outros dois que não conseguem aproveitar essa vantagem.
 
 
 def insertion_sort(lista):

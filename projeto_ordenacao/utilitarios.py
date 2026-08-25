@@ -5,7 +5,7 @@ def ler_lista_do_usuario():
         try:
             lista = [int(valor) for valor in partes]
             return lista
-        except ValuerErro:
+        except ValueError:
             print("Entrada inválida. Use apenas inteiros.")
             
 def exibir_resultados(nome_algoritimo, lista_ordenada):
